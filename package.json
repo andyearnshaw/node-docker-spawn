@@ -1,0 +1,16 @@
+{
+  "name": "docker-spawn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "pretest": "docker pull node",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jest": "^28.1.1"
+  }
+}
